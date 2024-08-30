@@ -1,0 +1,19 @@
+{
+  "name": "bun-web-push-notifications",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --watch index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/web-push": "^3.6.3",
+    "prettier": "^3.3.3",
+    "web-push": "^3.6.7"
+  }
+}
